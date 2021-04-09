@@ -4,10 +4,7 @@ defmodule ElixirTwitter.FileReader do
         |> String.split("\n")
         |> Enum.map(&String.trim/1)
         |> Enum.filter(&String.length(&1) <= 280)
+        |> Enum.filter(&String.length(&1) > 0)
         |> Enum.at(0)
-    end
-
-    def delete_tweeted_string() do
-        
     end
 end
