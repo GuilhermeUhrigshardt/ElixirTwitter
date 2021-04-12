@@ -1,6 +1,6 @@
 # ElixirTwitter
 
-**TODO: Add description**
+Application that reads a .txt file and tweets evey line of it, in order, until the last line
 
 ## Installation
 
